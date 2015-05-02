@@ -32,6 +32,7 @@ public class InitializeNodesAndSets {
                 }
                 sets.add(set);
                 nodes.get(count).setSet(set);
+                count++;
             }
         }
         return sets;
